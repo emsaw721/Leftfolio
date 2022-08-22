@@ -11,6 +11,7 @@ header {
   background-color: var(--tertiary-color); 
   justify-content: stretch;
   
+  
 
 }
 
@@ -69,7 +70,7 @@ header nav ul li a:hover {
   justify-content: center;
   flex-wrap: wrap;
   background-size: cover;
-  align-itens: flex-start;
+  align-items: flex-start;
   background-attachment: fixed; 
   background-position: 80%; 
   background-color: var(--primary-color); 
