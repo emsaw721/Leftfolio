@@ -80,7 +80,7 @@ header nav ul li a:hover {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around; 
+     
 
 
 }
@@ -89,27 +89,38 @@ header nav ul li a:hover {
     margin: 20px;
     background: var(--primary-color);
     color: var(--secondary-color);
-    flex-wrap: flex;
+    display: flex; 
+    flex-wrap: wrap; 
+    flex-direction: column; 
+    
 }
+
+.content-content h1{
+    font-weight: bold;
+    font-size: 36px; 
+}
+
+.content-content h4 {
+    font-weight: lighter; 
+
+}
+
 
 .content-content img {
     float: left; 
-    width: 25%; 
+    width: 50%;  
     border-radius: 15px; 
   
 }
 
 .content-content img:hover {
    position: relative; 
-   background-image: url(./images/run-buddy.png);
+ 
  
 }
 
 
-.content-content p {
-    margin-right: 400px; 
-    float: right; 
-}
+
 
 
 
