@@ -265,7 +265,7 @@ height: 30em;
   color: var(--secondary-color);
   display: flex; 
   flex-wrap: wrap; 
-  justify-content: space-evenly;
+  justify-content: start;
 
  
   
@@ -278,22 +278,21 @@ height: 30em;
   width: 35ex;   
 }
 
-.content-content h1 {
+/*  
+.headings h1 {
   z-index: 1; 
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end; 
-  position: absolute;
+  justify-content: normal;
   color: var(--secondary-color); 
   font-size: 36px; 
   font-weight: bold; 
   height: 100px; 
-  text-align: center;
   width: 15%; 
   margin-top: 150px;
  
 }
-.content-content h1:before {
+.headings h1:before {
   content:'';
   display: inline-block;
   height: 100%;
@@ -324,6 +323,7 @@ height: 30em;
   height: 100%;
   vertical-align: middle; 
 }
+*/ 
 
 
 .content-content img {
