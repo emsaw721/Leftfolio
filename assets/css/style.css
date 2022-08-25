@@ -199,14 +199,15 @@ height: 30em;
   z-index: 1; 
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-end; 
   position: absolute;
   color: var(--secondary-color); 
   font-size: 36px; 
   font-weight: bold; 
-  height: 200px; 
+  height: 100px; 
   text-align: center;
   width: 15%; 
-  padding: 75px 0 0 40px; 
+  margin-top: 150px;
  
 } 
   
@@ -221,13 +222,17 @@ height: 30em;
   border: 5px solid var(--tertiary-color); 
   background: var(--tertiary-color); 
   border-radius: 15px; 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: flex-end; 
   position: absolute;
   font-weight: lighter; 
   color: white; 
-  height: 300px; 
-  text-align: center;
+  height: 100px; 
+  text-align: bottom;
   width: 15%; 
-  padding: 10px 0 0 0; 
+  margin-top: 175px;
+  
 
 }
 
@@ -275,9 +280,17 @@ height: 30em;
 
 .content-content h1 {
   z-index: 1; 
-  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end; 
+  position: absolute;
+  color: var(--secondary-color); 
   font-size: 36px; 
-  color: white; 
+  font-weight: bold; 
+  height: 100px; 
+  text-align: center;
+  width: 15%; 
+  margin-top: 150px;
  
 }
 .content-content h1:before {
@@ -290,12 +303,19 @@ height: 30em;
 
 
 .content-content h4 {
-  z-index: 1; 
   border: 5px solid var(--tertiary-color); 
-  border-radius: 15px;  
+  background: var(--tertiary-color); 
+  border-radius: 15px; 
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: flex-end; 
+  position: absolute;
   font-weight: lighter; 
-  color: white;  
- 
+  color: white; 
+  height: 100px; 
+  text-align: bottom;
+  width: 15%; 
+  margin-top: 175px;
 }
 
 .content-content h4:before {
