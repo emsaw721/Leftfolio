@@ -268,7 +268,9 @@ height: 30em;
  padding: 5%;
  flex-basis: 30%;
  border: 3px solid var(--tertiary-color); 
+ border-radius: 15px; 
  align-items: center;
+ color: var(--secondary-color); 
 }
 
 .smallbox h1 {
@@ -286,7 +288,7 @@ height: 30em;
   border: 5px solid var(--tertiary-color); 
   display: flex;
   justify-content: center;
- align-items: center;
+  align-items: center;
 
 }
 
