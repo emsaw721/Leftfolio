@@ -45,14 +45,12 @@ header nav ul li a{
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
   background: white;
   color: black;
   border-radius: 15px;
-  text-shadow: none; 
   letter-spacing: 1em; 
 }
 
