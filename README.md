@@ -14,7 +14,6 @@ Future iterations of this portfolio will include working links to more projects,
 
 ## Authors and acknowledgment
 This README was made possible by https://www.makeareadme.com/. 
-A special thanks to Darby Biddy. 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
