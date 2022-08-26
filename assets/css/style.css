@@ -267,6 +267,7 @@ height: 30em;
  margin: 30px 30px 30px 70px; 
  padding: 5%;
  flex-basis: 30%;
+ background: var(--tertiary-color); 
  border: 3px solid var(--tertiary-color); 
  border-radius: 15px; 
  align-items: center;
