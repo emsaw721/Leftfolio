@@ -86,12 +86,13 @@ header nav ul li a:hover {
 
 
 .intro {
+  background-color: var(--primary-color); 
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; 
-  background-color: var(--primary-color); 
+
 
 
 }
@@ -263,19 +264,27 @@ height: 30em;
   align-items: center;
 }
 
+
 .smallbox {
  margin: 30px 30px 30px 70px; 
  padding: 5%;
  flex-basis: 30%;
- background: var(--tertiary-color); 
+ background-image: url(../images/calculatorholdbw.png); 
  border: 3px solid var(--tertiary-color); 
  border-radius: 15px; 
  align-items: center;
  color: var(--secondary-color); 
 }
 
+.smallbox:hover {
+  background-image: url(../images/calculatorhold.png); 
+}
+
 .smallbox h1 {
   color: var(--secodary-color);
+  border: 5px solid var(--tertiary-color); 
+  background-color: var(--tertiary-color);
+  border-radius: 15px; 
   display: flex; 
   justify-content: center; 
   padding: 10px;
@@ -284,7 +293,7 @@ height: 30em;
  font-weight: bold; 
 
 }
-
+/*
 .smallbox img {
   border: 5px solid var(--tertiary-color); 
   display: flex;
@@ -298,7 +307,7 @@ height: 30em;
 
 }
 
-
+*/ 
 
 
 
