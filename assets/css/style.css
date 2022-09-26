@@ -264,6 +264,33 @@ height: 30em;
   align-items: center;
 }
 
+.marvel {
+  margin: 30px 30px 30px 70px; 
+  padding: 5%;
+  flex-basis: 30%;
+  background-image: url(../images/marvelapp2.png); 
+  border: 3px solid var(--tertiary-color); 
+  border-radius: 15px; 
+  align-items: center;
+  color: var(--secondary-color); 
+}
+
+.marvel:hover {
+  background-image: url(../images/marvelapp.png); 
+}
+
+.marvel h1 {
+  color: var(--secodary-color);
+  border: 5px solid var(--tertiary-color); 
+  background-color: var(--tertiary-color);
+  border-radius: 15px; 
+  display: flex; 
+  justify-content: center; 
+  padding: 10px;
+ align-items: center;
+ font-size: 36px; 
+ font-weight: bold; 
+}
 
 .smallbox {
  margin: 30px 30px 30px 70px; 
