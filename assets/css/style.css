@@ -279,10 +279,11 @@ height: 30em;
   background-image: url(../images/marvelapp.png); 
 }
 
-.marvel h1 {
+.marvel a {
   color: var(--secodary-color);
   border: 5px solid var(--tertiary-color); 
   background-color: var(--tertiary-color);
+  text-decoration: none;
   border-radius: 15px; 
   display: flex; 
   justify-content: center; 
@@ -291,6 +292,8 @@ height: 30em;
  font-size: 36px; 
  font-weight: bold; 
 }
+
+
 
 .smallbox {
  margin: 30px 30px 30px 70px; 
