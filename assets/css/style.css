@@ -294,7 +294,6 @@ height: 30em;
 }
 
 
-
 .smallbox {
  margin: 30px 30px 30px 70px; 
  padding: 5%;
@@ -323,6 +322,16 @@ height: 30em;
  font-weight: bold; 
 
 }
+
+.smallbox h1 a {
+  text-decoration: none; 
+  color: var(--secondary-color); 
+}
+
+.smallbox h1 a:hover {
+  color: pink; 
+}
+
 /*
 .smallbox img {
   border: 5px solid var(--tertiary-color); 
@@ -351,22 +360,16 @@ height: 30em;
   background: var(--primary-color);
   color: var(--secondary-color);
   padding: 100px 0 15px 50px;
-
- 
-  
 }
 
 .contact-content h1{
   font-weight: bold;
   font-size: 55px; 
- 
- 
 }
 
 .contact-content a {
   text-decoration: none;
   color: white;
-  
 }
 .contact-content nav {
  
